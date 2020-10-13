@@ -20,9 +20,9 @@ class Stock < ApplicationRecord
 
     def self.check_db(ticker_symbol)
         begin 
-            where(ticker_symbol).first
+            where(ticker: ticker_symbol).first
         rescue => exception
-            nil
+            new_lookup(ticker_symbol)
         end
     end
 end
