@@ -17,4 +17,12 @@ class Stock < ApplicationRecord
             return nil
         end
     end
+
+    def self.check_db(ticker_symbol)
+        begin 
+            where(ticker_symbol).first
+        rescue => exception
+            nil
+        end
+    end
 end
