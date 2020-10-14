@@ -1,0 +1,4 @@
+:schedule:
+    update_stock_prices:
+        cron: "0 * * * * *"
+        class: UpdateStockPrices

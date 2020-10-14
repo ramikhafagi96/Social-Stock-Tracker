@@ -25,6 +25,10 @@ gem 'devise-bootstrap-views'
 gem 'iex-ruby-client'
 # font-awesome gem
 gem "font-awesome-rails"
+# sidekiq gem
+gem 'sidekiq'
+gem 'sidekiq-scheduler'
+gem 'sidekiq-cron'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
