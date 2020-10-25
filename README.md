@@ -14,7 +14,7 @@ This is a social web application in which users can track stocks and follow othe
 
 I developed this web application to learn the following:
 * Using <strong>devise</strong> gem for user authentication and authorization
-* Using <strong>polymorphic</strong> and <strong>self-referential</strong> assocations
+* Use self-referential association to implement following users relationship
 * Using <strong>ActiveJobs</strong> and <strong>Sidekiq</strong> to schedule jobs using <strong>cron</strong> and adding them to a queue
 * Implement a search bar to search for stocks and users
 * Using AJAX to update the web app asynchronously
